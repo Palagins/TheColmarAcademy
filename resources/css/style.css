@@ -1,0 +1,489 @@
+
+body {
+  font-family: Helvetica, times, sans-serif;
+  font-size: 16px;
+  width: auto;
+}
+
+h1 {
+  color: #333333;
+  font-weight: bold;
+  font-size: 64px;
+  padding: 32px 0;
+}
+
+h3 {
+  color: #333333;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+p {
+  color: #666666;
+  font-size: 24px;
+}
+
+header .desctop {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid black;
+  height: 64px;
+  display: inline-flex;
+  align-items: center;
+  z-index: 1;
+}
+
+.logo{
+  display: inline-flex;
+  padding-left: 24px;
+  align-items: center;
+  font-size: 24px;
+}
+
+.logo img{
+  width: 3rem;
+}
+
+.colmar {
+  font-weight: bold;
+  color: #333333;
+}
+.academy {
+  color: darkgray;
+}
+
+.links {
+  text-align: right;
+  flex-grow: 1;
+  padding-right: 24px;
+}
+
+.links li{
+  display: inline;
+}
+
+.links a {
+  color: black;
+  text-decoration: none;
+  padding-left: 16px;
+}
+
+header .mobile {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid black;
+  height: 64px;
+ }
+
+.mobile {
+  text-align: center;
+ }
+
+.mobile li {
+  display: inline;
+}
+
+.icon {
+  width: 32px;
+  padding: 12px 22px;
+}
+
+.container1 {
+  background-color: lightgray;
+  display: inline-flex;
+  padding-top: 64px;
+  width: 100%;
+}
+
+.banner {
+  max-width: 60%;
+  padding: 32px 24px;
+}
+
+.banner1 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.learn {
+  display: inline-block;
+  text-align: left;
+  margin: auto;
+}
+
+.btn a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn {
+  padding: 16px 16px;
+  border-radius: 4px;
+  text-align: center;
+  background-color: #333333;
+  margin-top: 64px;
+  }
+
+.btn:hover {
+  background-color: #666666;
+}
+
+.container2{
+  display: inline-flex;
+  width: 100%;
+}
+
+.practicing h2 {
+  color: #333333;
+  font-weight: bold;
+  font-size: 56px;
+  padding-top: 32px;
+  }
+
+.practicing p {
+  padding-top: 24px;
+  }
+
+.practicing h4 {
+  color: #333333;
+  padding: 32px 0;
+  font-size: 24px;
+  }
+
+.information {
+  padding: 32px 0;
+}
+
+.date {
+  border: 1px solid #cccccc;
+  display: flex;
+}
+
+.date.a {
+  background-color: #cccccc;
+}
+
+.img {
+  margin: 16px 16px;
+}
+
+.content {
+  margin: auto;
+  text-align: left;
+}
+
+.content p {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 20px;
+}
+
+.content a {
+  color: #3399FF;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.conteiner3 {
+  background-color: #cccccc;
+  align-items: center;
+  padding-left: 72px;
+  padding-right: 72px;
+  padding-bottom: 32px;
+}
+
+#start {
+  padding-top: 32px;
+  padding-bottom: 16px;
+  text-align: center;
+}
+
+.courses {
+  text-align: left;
+  margin: 16px 16px;
+  background-color: white;
+  display: inline-table;
+  border: 1px solid #cccccc;
+}
+
+.courses.a p {
+  padding-bottom: 48px;
+}
+
+.courses h3 {
+  padding: 16px 16px;
+}
+
+.courses span {
+  color: #666666;
+  font-size: 24px;
+  padding: 8px 16px;
+}
+
+.courses p {
+  padding: 24px 16px;
+}
+
+.pic {
+  height: auto;
+}
+
+#thesis{
+  text-align: center;
+}
+
+.conteiner4 {
+  display: inline-flex;
+  }
+
+.thesis {
+  padding: 0 24px;
+}
+
+.thesis h3 {
+  padding-top: 24px;
+}
+
+.thesis p {
+  padding-top: 8px;
+  padding-bottom: 32px;
+}
+
+.video {
+  width: 1104px;
+}
+
+.info {
+  margin-right: 3%;
+}
+
+.fisma{
+  display: inline-flex;
+}
+
+.fisma.a {
+  background-color: #cccccc;
+}
+
+
+footer {
+  padding: 16px 24px;
+  border-top: 1px solid #cccccc;
+  color: #666666;
+  display: flex;
+}
+
+.pad {
+  flex-grow: 1;
+  padding-left: 24px;
+}
+
+.pad1 {
+  text-align: right;
+  padding-right: 24px;
+}
+
+@media only screen and (min-width: 350px) and (max-width: 480px) {
+  header .desctop {
+    display: none;
+  }
+
+  h1 {
+    font-size: 48px;
+    padding: 0;
+  }
+
+  .container1 {
+    display: block;
+    padding-top: 64px;
+  }
+
+  .banner {
+    padding: 0;
+  }
+
+  .banner img {
+    max-width: 456px;
+  }
+
+  .banner1 {
+    padding: 32px 16px;
+  }
+
+  .learn {
+    margin: 0;
+    flex-grow: 1;
+  }
+
+  .learn h3 {
+    padding-top: 32px;
+  }
+
+  .learn .btn {
+    margin-top: 24px;
+  }
+
+  .container2 .banner {
+    display: none;
+  }
+
+  .information {
+    padding-top: 16px;
+    padding-bottom: 0;
+  }
+
+  .date {
+    display: inline-block;
+    border: none;
+  }
+
+  .date.a {
+    background-color: white;
+  }
+
+  .date .img {
+    display: none;
+  }
+
+  .date .image {
+    max-width: 420px;
+    padding: 0 16px;
+  }
+
+  .content {
+    padding: 32px 16px;
+  }
+
+
+  .conteiner3 {
+    background-color: white;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    padding: 32px 16px;
+  }
+
+  #start {
+    padding-top: 0;
+    padding-bottom: 8px;
+  }
+
+  .courses {
+    margin: 0;
+    border: none;
+    display: inline;
+  }
+
+  .courses h3 {
+    background-color: #cccccc;
+    margin-top: 8px;
+  }
+
+  .courses .pic {
+    display: none;
+  }
+
+  .courses span,
+  .courses p {
+    display: none;
+  }
+
+  #thesis {
+    padding-top: 32px;
+    padding-bottom: 16px;
+  }
+
+  .thesis {
+    padding: 0;
+  }
+
+  .thesis video {
+    max-width: 100%;
+  }
+
+  .thesis h3,
+  .thesis p {
+    display: none;
+  }
+
+  .info {
+    display: none;
+  }
+
+  footer .pad1 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .icon {
+    display: none;
+  }
+
+  .image {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1280px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .practicing h2 {
+    font-size: 48px;
+  }
+
+  .practicing h4 {
+    font-size: 16px;
+    padding-top: 32px;
+    padding-bottom: 0px;
+  }
+
+  .banner img {
+    width: 100%;
+  }
+
+  .btn {
+    padding: 8px 8px;
+  }
+
+  .img {
+    width: 35%;
+    height: 35%;
+  }
+
+  .conteiner3 {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .thesis video {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1920px) {
+  .banner img {
+    width: 100%;
+  }
+
+  .img {
+    width: 35%;
+    height: 35%;
+  }
+
+  .thesis video {
+    max-width: 100%;
+  }
+}
